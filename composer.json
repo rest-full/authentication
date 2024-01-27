@@ -1,0 +1,27 @@
+{
+    "name": "rest-full/authentication",
+    "description": "It is the authentication used at the time and after logging in.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "rest-full/event": "1.*",
+        "rest-full/container": "1.*",
+        "rest-full/error": "1.*",
+        "chillerlan/php-qrcode": "4.*",
+        "pragmarx/random": "v0.*"
+    }
+}
